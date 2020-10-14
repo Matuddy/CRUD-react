@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Link, Route} from 'react-router-dom';
+import config from './routesConfig' ;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+      <nav>
+        <Link className='px-2' to="/">home</Link>
+        <Link className='px-2' to="/user">user</Link>
+        <Link to="/login">login</Link>
+      </nav>
       </header>
+      {config.map(
+      (value, key) => {
+        return <Route key={key} path={value.path} component={value.component} exact={value.exact} 
+        ></Route>
+      }
+      )}
     </div>
   );
 }
