@@ -1,0 +1,31 @@
+footer{
+    color: rgb(14, 14, 14);
+    color: white;
+}
+
+.img img{
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+}
+
+.CopyRigth{
+    font-size: 12px;
+    text-align: center;
+}
+
+.texto p{
+    font-size: 15px;
+}
+
+.texto p a{
+    color: yellowgreen;
+}
+
+.texto p a:hover{
+    color: yellowgreen;
+}
+
+.endereço{
+    font-size: 12px;
+}
