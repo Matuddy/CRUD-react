@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './footer.css';
-import twitter from '../../img/twitter-icon-png'
-import instagram from '../../img/instagram-icon-png'
+import twitter from '../../img/twitter-icon-png.png'
+import instagram from '../../img/instagram-icon-png.jpg'
 
 class Footer extends Component{
     render(){
@@ -19,7 +19,7 @@ class Footer extends Component{
                         </div>
 
                         <div className="col">
-                            <p>contato:<a href="tel:">(51) 1224-8744</a></p>
+                            <p>contato:<a className="contato" href="tel:1224-8744 ">(51) 1224-8744</a></p>
                         </div>
 
                         <div className="col">

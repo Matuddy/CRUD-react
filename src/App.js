@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <header className="py-3 header">
       <nav className="nav-links">
-        <Link className='px-2' to="/">home</Link>
-        <Link className='px-2' to="/user">user</Link>
-        <Link to="/login">login</Link>
+        <Link className="px-2 cor" to="/">Avengers</Link>
+        <Link className="px-2 cor" to="/user">user</Link>
+        <Link className="cor" to="/login">login</Link>
       </nav>
       </header>
       {config.map(

@@ -1,6 +1,6 @@
 footer{
-    color: rgb(14, 14, 14);
-    color: white;
+    background-color: rgb(14, 14, 14);
+    color: crimson;
 }
 
 .img img{
@@ -28,4 +28,8 @@ footer{
 
 .endereço{
     font-size: 12px;
+}
+
+.contato{
+    color: crimson;
 }
